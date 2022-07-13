@@ -15,7 +15,7 @@ def voytoletter(src):
     return ret
 
 
-word = 'tartuf'
+word = 'firsttry'
 changes = ['i', 'a', 'u', 'y']
 voy = ['i', 'a', 'u', 'y', 'e', 'o']
 rez = []
