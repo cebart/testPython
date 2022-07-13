@@ -1,4 +1,4 @@
-def voytoletter(src):
+def changevoy(src):
     ret = [src]
     for letter in changes:
         buf = ''
@@ -20,7 +20,7 @@ changes = ['i', 'a', 'u', 'y']
 voy = ['i', 'a', 'u', 'y', 'e', 'o']
 rez = []
 
-rez += voytoletter(word)
+rez += changevoy(word)
 for result in rez:
     print(result)
 
